@@ -86,11 +86,11 @@ export default function NavHeader() {
 
         {/* chưa login */}
         <div className="flex items-center">
-          <Link href={"/"} className="mx-3 capitalize hover:text-white/70">
+          <Link href={"/register"} className="mx-3 capitalize hover:text-white/70">
             Đăng ký
           </Link>
           <div className="h-4 border-r-[1px] border-r-white/40" />
-          <Link href={"/"} className="mx-3 capitalize hover:text-white/70">
+          <Link href={"/login"} className="mx-3 capitalize hover:text-white/70">
             Đăng nhập
           </Link>
         </div>
